@@ -1190,7 +1190,7 @@ transition-property: color ;
   padding: 6px 22px;
   transition-timing-function: var(--timing-funtion);
   transition-duration: 250ms;
-  transition-property: color ,box-shadow;
+  transition-property: color ,box-shadow, background-color;
 }
 
 .hero1-btn:hover,
@@ -1208,7 +1208,7 @@ transition-property: color ;
   0px 2px 2px rgba(0, 0, 0, 0.12);
   transition-timing-function: var(--timing-funtion);
   transition-duration: 250ms;
-  transition-property: color , box-shadow;
+  transition-property: color , box-shadow, background-color;
 }
 
 
@@ -1274,7 +1274,7 @@ transition-property: color ;
   transform: translateY(101%);
     transition-timing-function: var(--timing-funtion);
     transition-duration: 250ms;
-    transition-property: background-color rgba(33, 150, 243, 0.9);
+    transition-property: transform ;
   
   
 }
@@ -1296,7 +1296,7 @@ transition-property: color ;
     text-decoration: none;
       transition-timing-function: var(--timing-funtion);
       transition-duration: 250ms;
-      transition-property: color, box-shadow;
+      transition-property:box-shadow;
     
 
 
@@ -1308,7 +1308,7 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
 1px 4px 6px rgba(0, 0, 0, 0.16);
   transition-timing-function: var(--timing-funtion);
   transition-duration: 250ms;
-  transition-property: color, box-shadow;
+  transition-property:box-shadow;
 
 
 }
